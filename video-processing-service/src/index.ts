@@ -49,7 +49,7 @@ app.post("/process-video", async (req, res) => {
 
 const port = process.env.Port || 8080;
 app.listen(port, () => {
-    console.log(`server is running on port: ${port}`);
+    console.log(`server is running on port number: ${port}`);
 });
 
 
